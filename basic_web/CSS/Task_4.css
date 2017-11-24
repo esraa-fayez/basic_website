@@ -1,0 +1,304 @@
+body
+{
+	height: 600px;
+}
+/* Start navbar*/
+.container
+{
+	width: 1000px;
+	margin: auto;
+}
+.navbar
+{
+	background-color: #252f31;
+	color: #fff;
+	overflow: hidden;
+	height:70px;
+
+	
+}
+.navbar h2
+{
+	float:left;
+	margin-top:10px;
+	font-size:30px;
+	margin-left: -30px;
+}
+.navbar span
+{
+	color:#ff3399;
+	font-size: 40px;
+}
+.navbar ul
+{
+	list-style: none;
+	padding-left: 0px;
+	float:right;
+}
+.navbar ul li
+{
+	float: left;
+	padding:10px;
+	margin-left:60px;
+	font-size: 20px;
+	font-family: sans-serif;
+		
+}
+.navbar ul li a
+{
+color: #fff;
+text-decoration: none;
+}
+.navbar ul li a:hover
+{
+	color:#ff3399;
+}
+/* end navbar*/
+
+/* start About*/
+.about
+{
+	margin-top: 50px;
+}
+.about img
+{
+	width: 400px;
+	height: 400px;
+	border:5px solid #ff3399;
+}
+.about img:hover
+{
+ border-style: dotted;
+ border-spacing: 6px;
+}
+.about button
+{
+	margin-top:-50px;
+	float: right;
+	margin-right:300px;
+	border: 2px solid #ff3399;
+	background-color: #fff;
+	color:#ff3399;
+	width:120px;
+	height: 30px;
+}
+.about button:hover
+{
+	background-color: #ff3399;
+	color:#fff;
+}
+.about .article
+{
+	float:right;
+	margin-right:-30px;
+}
+.about .article h2
+{
+	font-size: 50px;
+	font-family: Pacifico;
+	color: #ff3399;
+}
+.about .article p
+{
+	line-height: 25px;
+	font-family: Convergence;
+}
+
+
+/* End About*/
+
+/*Start Resume*/
+#Resume
+{
+margin: auto;
+height:1500px;
+margin-top:70px;
+}
+#Resume h1
+{
+	color:#ff3399;
+	text-align: center;
+	font-family: Pacifico;
+	font-size: 60px;
+}
+#Resume .cricle
+{
+	width:150px;
+	height:100px;
+	border-radius:50%;
+	background: #ff3399;
+	margin-left:-40px;
+	margin-top:80px;
+}
+#Resume .cricle h3
+{
+	text-align: center;
+	color:#fff;
+padding-top: 40px;
+	
+}
+#Resume .year17
+{
+	margin-left: 150px;
+	margin-top:-85px;
+}
+#Resume .year17 h2
+{
+	margin-left:-15px;
+}
+#Resume .year17 li
+{
+	font-weight: 400;
+	font-family: Merriweather Sans;
+	font-size:20px;
+	margin-left:-20px;
+	margin-top:30px;
+}
+#Resume .year17 p
+{
+	color:#9494b8;
+	margin-left: -15px;
+	
+}
+#Resume  hr
+{
+	width:550px;
+	margin-left: 50px;
+}
+#Resume .skills
+{
+	float:right;
+	margin-right:-75px;
+	margin-top:-900px;
+}
+#Resume .skills .line
+{
+	margin-right:100px;
+	margin-left: 20px;
+	width: 90px;
+}
+#Resume .skills h3
+{
+	margin-left: 20px;
+	font-size:22px;
+}
+#Resume .skills img
+{
+	margin-left:10px;
+}
+#Resume .skills li
+{
+	color:#9494b8;
+}
+#Resume .language 
+{
+	float:right;
+	margin-right:25px;
+	margin-top:-480px;
+}
+#Resume .language h3
+{
+	font-size:22px;
+	margin-left:20px;
+}
+#Resume .language hr
+{
+	width: 90px;
+	margin-right:10px;
+	margin-left: 20px;
+}
+#Resume .language li
+{
+	color:#9494b8;
+}
+
+/*End Resume*/
+
+/* start project*/
+#project
+{
+	margin-top: -20%;
+}
+#project h1
+{
+	color:#ff3399;
+	text-align: center;
+	font-family: Pacifico;
+	font-size: 60px;
+}
+#project .img
+{
+	margin-top:5%;
+	width: 30%;
+	height: 60%;
+	margin-left:2% 
+}
+
+/*end project*/
+
+/*start contact*/
+#contact
+{
+	margin-top: 7%;
+	background-color: #D68189;
+	height: 100%;
+}
+#contact h1
+{
+	color:#fff;
+	text-align: center;
+	font-family: Pacifico;
+	font-size: 60px;
+}
+#contact .input
+{
+	width: 30%;
+	height:8%;
+	border-radius: 20px;
+	margin-left: 37%;
+}
+#contact .message
+{
+	width: 25%;
+	height: 30%;
+	border-radius: 20px;
+	margin-left: 40%;
+}
+#contact .conect 
+{
+	border-radius: 10px;
+	width: 10%;
+	height:7%;
+	color: #fff;
+	background-color: #C6A49A;
+	margin-left: 47%;
+}
+#contact .conect:hover
+{
+	color:#C6A49A;
+	background-color: #fff;
+	border:3px solid #C6A49A;
+	
+}
+
+/*end contact*/
+
+/* start footer*/
+.footer
+{
+	margin-top: 50px;
+}
+.footer .social
+{
+float:right;
+margin-right:250px;
+}
+.footer img
+{
+	margin-top:15px;
+	width:50px;
+	height: 50px;
+	margin-left: 70px;
+	
+}
+/* end footer*/
